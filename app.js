@@ -4,7 +4,7 @@
 })();
 
 function getData() {
-  fetch('http://jservice.io/api/random')
+  fetch('https://jservice.io/api/random')
     .then(function(response) {
       return response.json();
     })
